@@ -1,0 +1,44 @@
+
+<div class="testPassWrapper">
+  <div class="header">Test your password for free!!!</div>
+
+  <input placeholder="Enter your password here..." type="text" (input)="onInput($event)">
+
+
+
+  <div class="strPassSection">
+    <div class="strPassElem"
+         [ngClass]="{
+         grey: emptyField,
+         red: shortPass || easyStrength,
+         yellow: mediumStrength,
+          green: strongStrength
+         }"
+    ></div>
+    <div class="strPassElem"
+         [ngClass]="{
+         grey: emptyField,
+         red: shortPass,
+         yellow: mediumStrength,
+          green: strongStrength
+         }"
+    ></div>
+    <div class="strPassElem"
+         [ngClass]="{
+         grey: emptyField,
+         red: shortPass,
+         green: strongStrength
+         }"
+
+    ></div>
+  </div>
+
+
+
+
+
+
+
+</div>
+
+

@@ -1,0 +1,54 @@
+.testPassWrapper {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: block;
+  /*margin: 0 auto;*/
+  /*margin-top: 20px;*/
+  text-align: center;
+  font-size: 20px;
+}
+
+input {
+
+  display: block;
+  font-size: 20px;
+  width: 300px;
+  margin: 20px auto 0;
+}
+
+.strPassSection {
+margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.strPassElem {
+  height: 50px;
+  width: 150px;
+
+}
+
+.grey {
+  background-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
